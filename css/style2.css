@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&amp;display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 2em;
+  color: #666666;
+}
+.background-index {
+  background: url(../images/home/background.jpg) no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
+.background-geography-scope {
+  background: url(../images/geography-scope/background.jpg) no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
+.background-climate {
+  background: url(../images/climate/background.jpg) no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
+.background-water {
+  background: url(../images/water/background.jpg) no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
+.background-soil {
+  background: url(../images/soil/background.jpg) no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
+.background-plant-world {
+  background: url(../images/plant-world/background.jpg) no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
+.background-animal-world {
+  background: url(../images/animal-world/background.jpg) no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
+.background-gallery {
+  background: #84bb42;
+  background-size: cover;
+  height: 88.5vh;
+}
+.background-links {
+  background: #84bb42;
+  background-size: cover;
+}
+.background-contacts {
+  background: #84bb42;
+  background-size: cover;
+  height: 88.5vh;
+}
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  text-transform: uppercase;
+  background: rgba(0,0,0,0.4);
+  z-index: 999;
+}
+.logo {
+  width: 140px;
+  height: auto;
+  float: left;
+  margin: 20px 40px 20px;
+  color: #654343;
+}
+.navbar-center {
+  margin: auto;
+}
+.menu {
+  float: right;
+  margin-right: 20px;
+}
+/* responsive drop-down */
+.responsive2-dropdown {
+  cursor: pointer;
+  width: 40px;
+  float: right;
+  text-align: center;
+  margin: 15px 40px 15px;
+  padding: 3px 6px 0px;
+  background: #ffffff;
+}
+/* responsive end drop-down */
+.button {
+  list-style: none;
+  margin: 0 12px;
+  display: inline-block;
+  line-height: 80px;
+  padding-right: 15px;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 12px 20px;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+}
+/* /////////////////////// */
+.button-dropdown a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 12px 20px;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+}
+.button a.active,
+.button a:hover {
+  background: #84bb42;
+  border-radius: 2px;
+}
+
+
+
+/* drop down  */
+.dropdown-toggle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+  }
+
+
+.button-dropdown {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 50px;
+}
+.dropdown {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  padding: 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #84bb42;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-size: 11px;      
+  float: none;
+  color: black;
+  padding: 0rem 0.8rem;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover,
+.button-dropdown a.active {
+  background-color: #84bb42;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* end/////////////////////////////////////////////////////////////////////////////// */
+.responsive-dropdown-label {
+  cursor: pointer;
+  color: rgba(0,0,0,.5);
+  font-size: 36px;
+  margin-top: 10px;
+}
+.responsive-button-dropdown a {
+  background: #ffffff;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 25px 15px 10px 15px;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+}
+.responsive-button a.active,
+.responsive-button a:hover {
+  background: #84bb42;
+  border-radius: 2px;
+}
+.responsive-button-dropdown {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 50px;
+}
+.responsive-dropdown {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  padding: 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+}
+
+
+
+.responsive-dropdown-content {
+  display: none;
+  margin-right: 18px;
+  right: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 300px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.responsive-dropdown-content a {
+  font-size: 11px;  
+  color: black;
+  padding: 0rem 0.8rem;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.responsive-dropdown-content a:hover,
+.responsive-button-dropdown a.active {
+  background-color: #84bb42;
+  color: white;
+}
+
+.responsive-dropdown:hover .responsive-dropdown-content {
+  display: block;
+}
+/* end drop down EEEEDD f1f1f4*/
+
+
+
+/* image-selection */
+/* index */
+.image-text {
+  padding: auto;
+  text-align: center;
+}
+.index-text {
+  height: 200px;
+  padding: 100px 0px 100px;
+  font-size: 45px;  
+  color: #ffff00;
+}
+/* end-image-selection */
+.information-index {
+  padding: 90px 0 70px 0;
+  background: linear-gradient(to bottom, #E16154 0%, #84bb42 40%);
+}
+.information-geography-scope {
+  padding: 90px 0 70px 0;
+  background: linear-gradient(to bottom, #A8B22F 0%, #84bb42 40%);
+}
+.information-climate {
+  padding: 90px 0 70px 0;
+  background: linear-gradient(to bottom, #7a8ac5 0%, #84bb42 40%);
+}
+.information-water {
+  padding: 90px 0 70px 0;
+  background: linear-gradient(to bottom, #ABA581 0%, #84bb42 40%);
+}
+.information-soil {
+  padding: 90px 0 70px 0;
+  background: linear-gradient(to bottom, #A87246 0%, #84bb42 40%);
+}
+.information-plant-world {
+  padding: 90px 0 70px 0;
+  background: linear-gradient(to bottom, #697138 0%, #84bb42 40%);
+}
+.information-animal-world {
+  padding: 90px 0 70px 0;
+  background: linear-gradient(to bottom, #89714D 0%, #84bb42 40%);
+}
+.img {
+  float: left;
+  padding: 0px 30px 0px 30px;
+}
+.container {
+  max-width: 77%;
+  margin: auto;
+  content: "";
+  display: table;
+  clear: both;
+}
+.text {
+  float: left;
+  font-size: 24px;
+  width: 30%;
+  padding: 0px 25px 25px;
+  color: #F3F3B4!important;/* #ffff00 */
+}
+.title-body {
+  margin: auto;
+}
+/* end-index */
+
+
+
+/* geography-scope */
+/* image-selection */
+.image-characteristic {
+  padding: 140px 0px 100px;
+  padding-bottom: auto;
+}
+.image-container {
+  margin: auto;
+  width: 70%;
+  float: center;
+  text-align: center;
+}
+
+.image-title {
+  color: #ffff99;
+  font-size: 36px;
+  line-height: 1.3em;
+}
+.image-navigation {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffff99;
+  margin-bottom: 0;
+  display: inline-block;
+  padding: 10px 0;
+  background: none;
+}
+.current-navigation {
+  display: inline-block;
+  font-size: 19px;
+  color: #ffff99;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0px;
+    font-size:34px;
+    width: 100%;
+    color: #ffff99;
+    text-align: center;
+}
+/* end-image-selection */
+/* end geography-scope */
+
+
+
+/* footer */
+.footer {
+  padding: 10px 0 0px;
+  color: #f2f2f2;
+  position: relative;
+  background: #1f2a37;
+  z-index: 999;
+}
+.footer-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+/* end-footer */
+
+/* gallery */
+.polaroid {
+  width:200px;
+  height:200px;
+  position:absolute;
+}
+ 
+ 
+.polaroid img 
+{ 
+  width:320px;
+  height:300px;
+}
+ /* end-gallery*/
+
+
+
+ /* contacts */
+.contact-form {
+  padding: 30px 30px 0px 30px;
+}
+.contacts-container {
+  margin: auto;
+  width: 400px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+.submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+label {
+  width: 100%;
+}
+/* end - contacts */
+
+
+
+/* links */
+.links-form {
+  padding: 25px;
+}
+.links-container {
+  margin: auto;
+  max-width: 90%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* end-links */
+
+
+/* 404 */
+.error404-form {
+  height: 300px;
+}
+.error404-container {
+  text-align: center;
+  margin: 100px auto 0px auto;
+  width: 400px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* end-404 */
+
+/* credits */
+.credits-container {
+  margin-left: auto;
+  text-align: center;
+  width: 400px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+/* end-credits */
